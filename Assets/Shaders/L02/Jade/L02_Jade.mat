@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L02_Jade
+  m_Shader: {fileID: 4800000, guid: 98ef7deea5da0d1498ac9ba0600d687c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: 8da07e2944d0b7242bdfa50fe235a7d7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _FresnelExp: 2.02
+    - _HighlightRange1: 0.995
+    - _HighlightRange2: 0.995
+    m_Colors:
+    - _FresnelColor: {r: 0.89616144, g: 1, b: 0.7294118, a: 1}
+    - _HighlightColor: {r: 0.865977, g: 0.9811321, b: 0.763617, a: 1}
+    - _HighlightOffset1: {r: 0, g: 0.08, b: 0, a: 0}
+    - _HighlightOffset2: {r: 0, g: -0.26, b: 0, a: 0}
