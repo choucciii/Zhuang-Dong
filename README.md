@@ -3,3 +3,5 @@
 https://github.com/BoyanTata/AP01
 
 https://acegikmo.com/shaderforge/nodes/
+
+BRDF Explorer: https://github.com/wdas/brdf
