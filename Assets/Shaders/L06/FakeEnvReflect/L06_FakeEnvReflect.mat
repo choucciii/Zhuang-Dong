@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: L04_SSS
-  m_Shader: {fileID: 4800000, guid: 41789f37098e40945b0168f7df2e4837, type: 3}
+  m_Name: L06_FakeEnvReflect
+  m_Shader: {fileID: 4800000, guid: e55cdbca38fc2b146ae90a74b4527fa8, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,10 +19,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SSSLut:
-        m_Texture: {fileID: 2800000, guid: 9fccb1d83bb707f4daf315856c7bc4bf, type: 3}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: abf9f896288ee104d9b7364a2352669d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _SSSPower: 0.61
+    - _EnvReflectPower: 0.52
+    - _RampType: 0.59
+    - _SpecularPower: 24
     m_Colors: []

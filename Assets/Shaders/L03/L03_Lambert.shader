@@ -1,4 +1,4 @@
-﻿Shader "zhuangdong/L03/Lambert" {
+﻿Shader "ZhuangDong/L03/Lambert" {
     Properties {
     }
     SubShader

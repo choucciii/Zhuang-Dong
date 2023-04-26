@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a68e76e75cd814f42afadfd2ec88e69c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _NoiseMap: {fileID: 2800000, guid: d365e3eb33f294241a94e2ef9a05700c, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
