@@ -1,5 +1,7 @@
-# 庄佬的入门课 https://space.bilibili.com/6373917
+# 庄佬 https://space.bilibili.com/6373917
 
-https://github.com/BoyanTata/AP01
+入门课源码: https://github.com/BoyanTata/AP01
 
-https://acegikmo.com/shaderforge/nodes/
+Shader Forge: https://acegikmo.com/shaderforge/
+
+BRDF Explorer: https://github.com/wdas/brdf
