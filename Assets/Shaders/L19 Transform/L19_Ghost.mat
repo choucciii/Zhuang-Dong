@@ -26,8 +26,8 @@ Material:
     m_Floats:
     - _Opacity: 0.5
     m_Colors:
-    - _RingScaleParams: {r: 0.2, g: 1, b: 4.5, a: 0}
-    - _ShakeHeadParams: {r: 1, g: 3, b: 1, a: 0}
-    - _SwingXParams: {r: 1, g: 3, b: 1, a: 0}
-    - _SwingYParams: {r: 1, g: 3, b: 0.3, a: 0}
-    - _SwingZParams: {r: 1, g: 3, b: 1, a: 0}
+    - _RingScaleParams: {r: 0.2, g: 1, b: 4.23, a: 0}
+    - _ShakeHeadParams: {r: 22.07, g: 1.28, b: 0.16, a: 0}
+    - _SwingXParams: {r: 0.14, g: 0.97, b: 1.45, a: 0}
+    - _SwingYParams: {r: 0.31, g: 0.33, b: 0.11, a: 0}
+    - _SwingZParams: {r: 0.19, g: 0.75, b: 0.8, a: 0}

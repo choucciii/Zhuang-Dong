@@ -16,6 +16,8 @@ L14 推荐博客 [Simon schreibt.](https://simonschreibt.de/)
 
 QQ群 597337324
 
-L20 SD Intro
+L20 SD [ClockHead](./SD/ClockHead) 
 
-​	其他教程 1. [SD官方教程合集](https://www.bilibili.com/video/BV1D54y1Q7P3/?spm_id_from=333.788.b_636f6d6d656e74.11&vd_source=fdf93178573a9d599d73635d02d4dc87) 2. [Daniel Thiger](https://www.bilibili.com/video/BV1x3411z7WM/?spm_id_from=333.337.search-card.all.click&vd_source=fdf93178573a9d599d73635d02d4dc87)
+-----
+
+SD教程 1. [SD官方教程合集](https://www.bilibili.com/video/BV1D54y1Q7P3/?spm_id_from=333.788.b_636f6d6d656e74.11&vd_source=fdf93178573a9d599d73635d02d4dc87) 2. [Daniel Thiger](https://www.bilibili.com/video/BV1x3411z7WM/?spm_id_from=333.337.search-card.all.click&vd_source=fdf93178573a9d599d73635d02d4dc87)

@@ -58,9 +58,33 @@
             #define TWO_PI 6.283185
 
             void Ghost(inout float3 vertex, inout float3 color) {
+                // Ring scaling
                 float scale = _RingScaleParams.x * color.g * sin(frac(_Time.y * _RingScaleParams.y) * TWO_PI);
-                vertex.xz *= 1.0 + scale;
-                //vertex.y -= _RingScaleParams.z * scale;
+                vertex.xyz *= 1.0 + scale;
+                vertex.y -= _RingScaleParams.z * scale;
+                //vertex.xz *= 1.0 + scale;
+
+                // Swing
+                float swingX = _SwingXParams.x * sin(frac(_Time.y * _SwingXParams.y + vertex.y * _SwingXParams.z) * TWO_PI);
+                float swingZ = _SwingZParams.x * sin(frac(_Time.y * _SwingZParams.y + vertex.y * _SwingZParams.z) * TWO_PI);
+                vertex.xz += float2(swingX, swingZ) * color.r;
+
+                // Head shaking
+                float radY = radians(_ShakeHeadParams.x) * (1.0 - color.r) * sin(frac(_Time.y * _ShakeHeadParams.y - color.g * _ShakeHeadParams.z) * TWO_PI);
+                float sinY, cosY = 0;
+                sincos(radY, sinY, cosY);
+                vertex.xz = float2(
+                    vertex.x * cosY - vertex.z * sinY,
+                    vertex.x * sinY + vertex.z * cosY
+                );
+
+                // Floating
+                float swingY = _SwingYParams.x * sin(frac(_Time.y * _SwingYParams.y - color.g * _SwingYParams.z) * TWO_PI);
+                vertex.y += swingY;
+
+                // Vertex color
+                float lightness = 1.0 + color.g * 1.0 + scale * 2.0; // Highlight + flash
+                color = float3(lightness, lightness, lightness);
             }
 
             v2f vert (appdata v)
@@ -76,7 +100,7 @@
             fixed4 frag (v2f i) : SV_Target
             {
                 fixed4 var_MainTex = tex2D(_MainTex, i.uv0);
-                fixed3 finalRGB = var_MainTex.rgb;
+                fixed3 finalRGB = var_MainTex.rgb * i.color.rgb;
                 fixed opacity = var_MainTex.a * _Opacity;
                 return fixed4(finalRGB * opacity, opacity);
             }

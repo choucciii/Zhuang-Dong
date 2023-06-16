@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L20_ClockHead
+  m_Shader: {fileID: 4800000, guid: 94b229aad24c4fe4abdb5206798f7526, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 48d5c0a19c7865b48a79a732173223c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmisTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 82ab17af303f3ff47bc5ef44e47616c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormMap:
+        m_Texture: {fileID: 2800000, guid: 5185488a95842fc4caa6a42911f1ddd1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecTex:
+        m_Texture: {fileID: 2800000, guid: 655998e59fa8da749bbfd7f83a9559e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CenterOffset: 3.19
+    - _CubemapMip: 2.13
+    - _EmisInt: 1.48
+    - _EnvDiffInt: 0.764
+    - _EnvSpecInt: 0.61
+    - _FresnelPow: 1.62
+    - _HourHandAngle: 49
+    - _MinHandAngle: 228
+    - _SecHandAngle: 18
+    - _SpecPow: 41.6
+    m_Colors:
+    - _EnvButCol: {r: 0.5294118, g: 0.4627451, b: 0.41568628, a: 1}
+    - _EnvSideCol: {r: 0.84705883, g: 0.9529412, b: 0.98039216, a: 1}
+    - _EnvTopCol: {r: 0.9607843, g: 0.9607843, b: 0.89411765, a: 1}
+    - _MainCol: {r: 0.5, g: 0.5, b: 0.5, a: 1}
