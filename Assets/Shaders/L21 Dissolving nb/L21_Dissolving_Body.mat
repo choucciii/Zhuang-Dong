@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L21_Dissolving_Body
+  m_Shader: {fileID: 4800000, guid: a8d6127db956ca74983ea4ac4ac67670, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 48d5c0a19c7865b48a79a732173223c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EffectMap:
+        m_Texture: {fileID: 2800000, guid: 887f204c6be17e84a87e06543a35c2ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmisTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 64c81328463673f46a2e1746fac79823, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseMap:
+        m_Texture: {fileID: 2800000, guid: 78e62bd0481f9294a89571c53b9d78e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormMap:
+        m_Texture: {fileID: 2800000, guid: 7b6a6afbdb1be714ab20f79b9c010c50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecTex:
+        m_Texture: {fileID: 2800000, guid: 30876a1438302bd48a2c7b4a36cfbf80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CubemapMip: 2.13
+    - _EmisInt: 1.48
+    - _EnvDiffInt: 0.764
+    - _EnvSpecInt: 0.61
+    - _FresnelPow: 1.62
+    - _SpecPow: 41.6
+    m_Colors:
+    - _EffectCol: {r: 9.424291, g: 16.685629, b: 29.508846, a: 0}
+    - _EffectParams: {r: 0.03, g: 3.94, b: 0.33, a: 1.85}
+    - _EnvButCol: {r: 0.5294118, g: 0.4627451, b: 0.41568628, a: 1}
+    - _EnvSideCol: {r: 0.84705883, g: 0.9529412, b: 0.98039216, a: 1}
+    - _EnvTopCol: {r: 0.9607843, g: 0.9607843, b: 0.89411765, a: 1}
+    - _MainCol: {r: 0.5, g: 0.5, b: 0.5, a: 1}

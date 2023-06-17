@@ -18,6 +18,8 @@ QQ群 597337324
 
 L20 SD [ClockHead](./SD/ClockHead) 
 
------
+L21 关于shader分支 如果新版本没啥变化的话 shaderfeature做静态分支 多重编译做动态分支 分支爆炸用shadervariantcollection做分支选择和排除 注意打包规则不合理会导致shader分支无法被编译
+
+
 
 SD教程 1. [SD官方教程合集](https://www.bilibili.com/video/BV1D54y1Q7P3/?spm_id_from=333.788.b_636f6d6d656e74.11&vd_source=fdf93178573a9d599d73635d02d4dc87) 2. [Daniel Thiger](https://www.bilibili.com/video/BV1x3411z7WM/?spm_id_from=333.337.search-card.all.click&vd_source=fdf93178573a9d599d73635d02d4dc87)
