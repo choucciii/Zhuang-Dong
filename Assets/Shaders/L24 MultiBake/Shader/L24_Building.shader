@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced tex2D unity_Lightmap with UNITY_SAMPLE_TEX2D
 
-Shader "AP01/L24/Building" {
+Shader "ZhuangDong/L24/Building" {
     Properties {
         _MainTex ("颜色纹理", 2D) = "white" {}
         _MaskTex ("遮罩纹理", 2D) = "gray" {}

@@ -1,7 +1,7 @@
 ﻿// Upgrade NOTE: replaced 'defined SKY_BLACK' with 'defined (SKY_BLACK)'
 // Upgrade NOTE: replaced 'defined SKY_WHITE' with 'defined (SKY_WHITE)'
 
-Shader "AP01/L24/Sky"{
+Shader "ZhuangDong/L24/Sky"{
     Properties {
         [NoScaleOffset]_SkyCube ("天空球", Cube) = "grey" {}
         _Rotation ("水平旋转", Range(0.0, 360.0)) = 0.0

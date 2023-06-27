@@ -1,4 +1,4 @@
-﻿Shader "AP01/L24/EmitLight" {
+﻿Shader "ZhuangDong/L24/EmitLight" {
     Properties {
         _MainTex ("主纹理", 2D) = "white" {}
         _EmitInt ("自发光强度", Range(0.0, 10.0)) = 1.0
