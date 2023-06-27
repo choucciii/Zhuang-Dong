@@ -32,7 +32,7 @@ L25 ShadowPass UnityApplyLinearShadowBias方法的解释
 
 - [ ] L08 Translucent
 - [ ] L20 SD
-- [ ] L23 CustomLightMap
+- [ ] L24
 
 ------
 
